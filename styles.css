@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #5F6F52;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #CCE8DA;
+  background-color: #B99470;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.note {
+  outline: none;
+  border: 10px solid #404B69;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #CCE8DA;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  color: #FEFAE0;
+  font-family: sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5F6F52;
+  padding-bottom: 5px;
+}
+
+.d {
+  background-image: url("./images/do.png");
+}
+
+.r {
+  background-image: url("./images/re.png");
+
+}
+
+.m {
+  background-image: url("./images/mi.png");
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #5F6F52;
+  opacity: 0.5;
+}
